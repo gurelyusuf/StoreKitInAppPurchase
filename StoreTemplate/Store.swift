@@ -162,6 +162,23 @@ class Store: ObservableObject {
             return purchasedLifetime
         case .autoRenewable:
             return purchasedSubscriptions.contains(product)
+        default:
+            return false
+        }
+    }
+    
+    func purchase(_ product: Product) async throws -> Transaction? {
+        let result = try await product.purchase()
+        
+        switch result {
+        case .success(let verification):
+            let transaction = try checkVerified(verification)
+            await transaction.finish()
+            return transaction
+        case .userCancelled, .pending:
+            return nil
+        default:
+            return nil
         }
     }
 }
