@@ -1,0 +1,148 @@
+{
+  "identifier" : "071A07E5",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "99.99",
+      "familyShareable" : true,
+      "internalID" : "6C710754",
+      "localizations" : [
+        {
+          "description" : "Get all app features for life",
+          "displayName" : "Lifetime Subscription",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "lifetime_subscription",
+      "referenceName" : "Lifetime Subscription",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "FC00F658",
+      "localizations" : [
+
+      ],
+      "name" : "Subscription",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "49.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "E87DFAC3",
+          "introductoryOffer" : {
+            "internalID" : "A1B360A4",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1W"
+          },
+          "localizations" : [
+            {
+              "description" : "Get all app features for one year",
+              "displayName" : "Yearly Subscription",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "yearly_subscription",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Yearly Subscription",
+          "subscriptionGroupID" : "FC00F658",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "4.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "0B96C2AE",
+          "introductoryOffer" : {
+            "internalID" : "26FEC9A1",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P3D"
+          },
+          "localizations" : [
+            {
+              "description" : "Get all appa features for one month",
+              "displayName" : "Monthly Subscription",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "monthly_subscription",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Monthly Subscription",
+          "subscriptionGroupID" : "FC00F658",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
